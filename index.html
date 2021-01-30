@@ -3,9 +3,50 @@
     <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="">
-    </head>
-
+    </head>      
     <body>
-        
+        <header> 
+            <h1 id="title">Microverse survey Form Project</h1>
+            <p id="description">This is a project created by Tiago and Marcos, thank you for taking your time to see it.</p>
+        </header>
+        <form id="survey-form">
+            <div class="textbelow">Name</div>
+            <input type="text" class="textbox" placeholder="Please enter your name">
+            <div class="textbelow">E-mail</div>
+            <input type="email" class="textbox" placeholder="Please enter your email">
+            <div class="textbelow">Phone Number</div>
+            <input type="number" class="textbox" minlength="1"  maxlength="10" placeholder="Please enter your phone number" >
+            <div class = "textbelow">Civil status</div>
+            <select id = "dropdown" name = "dropdown">
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="divorced">Divorced</option>
+                <option value="widow">Widow</option>
+            </select>
+            <div class= "textbelow">Please select your age</div>
+            <input type="radio" id="18-" name="age" value="one">
+            <label for="-18">10 - 18</label><br>
+            <input type="radio" id="18+" name="age" value="two">
+            <label for="-18">18 - 29</label><br>
+            <input type="radio" id="18" name="age" value="three">
+            <label for="-18">30 - 50</label><br>
+            <div class = "textbelow">Interests</div>
+            <input type="checkbox" id="interest1" name="interest1" value="Cars">
+            <label for="interest1"> Cars</label>
+            <input type="checkbox" id="interest2" name="interest2" value="Music">
+            <label for="interest2"> Music</label>
+            <input type="checkbox" id="interest3" name="interest3" value="Movies">
+            <label for="interest3"> Movies</label><br>
+            <input type="checkbox" id="interest4" name="interest4" value="Fitness">
+            <label for="interest4"> Fitness</label>
+            <input type="checkbox" id="interest5" name="interest5" value="Food">
+            <label for="interest5"> Food</label>
+            <input type="checkbox" id="interest6" name="interest6" value="Drawing">
+            <label for="interest6"> Drawing</label>
+            <div id="textbelow">Comments or suggestions</div>
+            <textarea id="textarea" rows="4" cols="50" placeholder="Enter your comment here"></textarea>
+
+            <input type="submit" value="submit" class="submitbtn">
+        </form>
     </body>
 </html>
