@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+#body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(/js/Project2htmlwithTiago/resources/background2.jpg);
+    background-color: #9900CC;
+    background-size: cover;
+    background-position: center center;
+}
+#title
+#header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+#header{
+    margin-top: 100px;
+   
+}
+#survey-form .textbelow{
+    padding: 10px;
+}
+header h1{
+    font-family: 'Londrina Solid', cursive;
+}
+header p{
+    font-family: 'Londrina Solid', cursive; 
+}
+.textbelow{
+    margin:10px auto -8px auto;
+    text-align: center;
+    font-family: 'Gorditas', cursive;
+    font-size: 15px;
+}
+.submitbtn{
+    text-align:center;
+    padding: 0 50px 0 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: transparent;
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: 'Londrina Solid', cursive;
+    background-color: #566573;
+    outline: none;
+}
+.submitbtn:hover{
+    background-color:#2C3E50;
+}
+.textbox{
+    width: 300px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    border: solid 1px #D4AC0D;
+    border-radius: 5px;
+}
+form{
+    border: solid red 1;
+    background-color: #808B96 ;
+    opacity: 0.7;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+#textarea{
+    margin: 15px auto 15px auto;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    border: solid 1px #D4AC0D;
+    border-radius: 5px;
+}
+label{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 15px; 
+}
+.checks{
+    text-align: center;
+}
+

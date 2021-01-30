@@ -2,13 +2,14 @@
 <html lang="en">
     <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles.css">
     </head>      
-    <body>
-        <header> 
+    <body id="body">
+        <header id="header"> 
             <h1 id="title">Microverse survey Form Project</h1>
-            <p id="description">This is a project created by Tiago and Marcos, thank you for taking your time to see it.</p>
+            <p id="description">This is a project created by Tiago and Marcos thank you for taking your time to see it.</p>
         </header>
+        <div id="wrapper">
         <form id="survey-form">
             <div class="textbelow">Name</div>
             <input type="text" class="textbox" placeholder="Please enter your name">
@@ -31,6 +32,7 @@
             <input type="radio" id="18" name="age" value="three">
             <label for="-18">30 - 50</label><br>
             <div class = "textbelow">Interests</div>
+            <div class = "checks">
             <input type="checkbox" id="interest1" name="interest1" value="Cars">
             <label for="interest1"> Cars</label>
             <input type="checkbox" id="interest2" name="interest2" value="Music">
@@ -43,10 +45,11 @@
             <label for="interest5"> Food</label>
             <input type="checkbox" id="interest6" name="interest6" value="Drawing">
             <label for="interest6"> Drawing</label>
-            <div id="textbelow">Comments or suggestions</div>
-            <textarea id="textarea" rows="4" cols="50" placeholder="Enter your comment here"></textarea>
-
-            <input type="submit" value="submit" class="submitbtn">
+        </div>
+            <div class="textbelow">Comments or suggestions</div>
+            <textarea id="textarea" rows="4" cols="50" placeholder="Enter your comment here"></textarea><br>
+            <input type="submit" value="Submit" class="submitbtn">
         </form>
+    </div>
     </body>
 </html>
